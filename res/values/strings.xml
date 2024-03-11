@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FoodShare</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_second">Second</string>
+    <string name="title_activity_check_otp">CheckOtp</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_restarent_reg">RestarentReg</string>
+    <string name="title_activity_user_reg">UserReg</string>
+    <string name="title_activity_organization_reg">OrganizationReg</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_rest_login">RestLogin</string>
+    <string name="title_activity_user_login">UserLogin</string>
+    <string name="title_activity_org_login">OrgLogin</string>
+    <string name="title_activity_rest_home">RestHome</string>
+    <string name="title_activity_user_home">UserHome</string>
+    <string name="title_activity_org_home">OrgHome</string>
+    <string name="title_activity_view_profile_rest">ViewProfileRest</string>
+    <string name="title_activity_user_profile">UserProfile</string>
+    <string name="title_activity_org_profile">OrgProfile</string>
+    <string name="title_activity_food_availability_rest">FoodAvailabilityRest</string>
+    <string name="title_activity_view_history_rest">ViewHistoryRest</string>
+    <string name="title_activity_view_history_rest_main">ViewHistoryRestMain</string>
+    <string name="title_activity_food_availability_user">FoodAvailabilityUser</string>
+    <string name="title_activity_view_history_user">ViewHistoryUser</string>
+    <string name="title_activity_view_history_user_main">ViewHistoryUserMain</string>
+    <string name="title_activity_food_availability_org">FoodAvailabilityOrg</string>
+    <string name="title_activity_view_history_org">ViewHistoryOrg</string>
+    <string name="title_activity_view_history_org_main">ViewHistoryOrgMain</string>
+    <string name="title_activity_pick_up_food">PickUpFood</string>
+    <string name="title_activity_pick_up_food_rest">PickUpFoodRest</string>
+    <string name="title_activity_pick_up_food_users">PickUpFoodUsers</string>
+    <string name="title_activity_pick_up_food_rest_main">PickUpFoodRestMain</string>
+    <string name="title_activity_view_map">ViewMap</string>
+    <string name="title_activity_view_map_main">ViewMapMain</string>
+    <string name="title_activity_pick_up_food_users_main">PickUpFoodUsersMain</string>
+    <string name="title_activity_food_distribution">FoodDistribution</string>
+    <string name="title_activity_food_distribution_main">FoodDistributionMain</string>
+    <string name="title_activity_donor_details">DonorDetails</string>
+    <string name="title_activity_news_feed">NewsFeed</string>
+    <string name="title_activity_news_feed_main">NewsFeedMain</string>
+    <string name="title_activity_rank_list">RankList</string>
+
+</resources>
