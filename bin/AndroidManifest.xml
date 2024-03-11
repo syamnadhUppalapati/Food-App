@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.foodshare"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.foodshare.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.foodshare.Second"
+            android:label="@string/title_activity_second" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.CheckOtp"
+            android:label="@string/title_activity_check_otp" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.Register"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.RestarentReg"
+            android:label="@string/title_activity_restarent_reg" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.UserReg"
+            android:label="@string/title_activity_user_reg" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.OrganizationReg"
+            android:label="@string/title_activity_organization_reg" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.RestLogin"
+            android:label="@string/title_activity_rest_login" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.UserLogin"
+            android:label="@string/title_activity_user_login" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.OrgLogin"
+            android:label="@string/title_activity_org_login" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.RestHome"
+            android:label="@string/title_activity_rest_home" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.UserHome"
+            android:label="@string/title_activity_user_home" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.OrgHome"
+            android:label="@string/title_activity_org_home" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.ViewProfileRest"
+            android:label="@string/title_activity_view_profile_rest" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.UserProfile"
+            android:label="@string/title_activity_user_profile" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.OrgProfile"
+            android:label="@string/title_activity_org_profile" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.FoodAvailabilityRest"
+            android:label="@string/title_activity_food_availability_rest" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.ViewHistoryRest"
+            android:label="@string/title_activity_view_history_rest" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.ViewHistoryRestMain"
+            android:label="@string/title_activity_view_history_rest_main" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.FoodAvailabilityUser"
+            android:label="@string/title_activity_food_availability_user" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.ViewHistoryUser"
+            android:label="@string/title_activity_view_history_user" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.ViewHistoryUserMain"
+            android:label="@string/title_activity_view_history_user_main" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.FoodAvailabilityOrg"
+            android:label="@string/title_activity_food_availability_org" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.ViewHistoryOrg"
+            android:label="@string/title_activity_view_history_org" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.ViewHistoryOrgMain"
+            android:label="@string/title_activity_view_history_org_main" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.PickUpFood"
+            android:label="@string/title_activity_pick_up_food" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.PickUpFoodRest"
+            android:label="@string/title_activity_pick_up_food_rest" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.PickUpFoodUsers"
+            android:label="@string/title_activity_pick_up_food_users" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.PickUpFoodRestMain"
+            android:label="@string/title_activity_pick_up_food_rest_main" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.ViewMap"
+            android:label="@string/title_activity_view_map" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.ViewMapMain"
+            android:label="@string/title_activity_view_map_main" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.PickUpFoodUsersMain"
+            android:label="@string/title_activity_pick_up_food_users_main" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.FoodDistribution"
+            android:label="@string/title_activity_food_distribution" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.FoodDistributionMain"
+            android:label="@string/title_activity_food_distribution_main" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.DonorDetails"
+            android:label="@string/title_activity_donor_details" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.NewsFeed"
+            android:label="@string/title_activity_news_feed" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.NewsFeedMain"
+            android:label="@string/title_activity_news_feed_main" >
+        </activity>
+        <activity
+            android:name="com.example.foodshare.RankList"
+            android:label="@string/title_activity_rank_list" >
+        </activity>
+    </application>
+
+</manifest>
